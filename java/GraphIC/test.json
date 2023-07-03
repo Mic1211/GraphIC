@@ -1,0 +1,17 @@
+{
+	"MSG": {
+	 "section": "RODATA",
+	 "type": {"id":"ARRAY", "elements":13, "type":{"id":"UNSIGNED", "bits":8}},
+	 "data": "Hello World!%00"
+	},
+
+	"main": {
+	 "section": "NODECLASS",
+	 "call_convention": "DEFAULT",
+	 "constmap": [{"reg":3, "val":0}],
+	 "in_types": [{"id":"SIGNED", "bits":0}, {"id":"POINTER"}],
+	 "out_types": [{"id":"SIGNED", "bits":0}],
+	 "reg_types": [],
+	 "nodes": [{"class":"fprintf", "in_map":[0, 1, 2, 4, 5, 1], "out_map":[0, 1, 2]}]
+	}
+}
